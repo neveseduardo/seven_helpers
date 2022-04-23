@@ -1,0 +1,33 @@
+{
+  "name": "seven_helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neveseduardo/seven_helpers.git"
+  },
+  "keywords": [
+    "helpers"
+  ],
+  "author": "neveseduardo",
+  "bugs": {
+    "url": "https://github.com/neveseduardo/seven_helpers/issues"
+  },
+  "homepage": "https://github.com/neveseduardo/seven_helpers#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "test"
+  ]
+}
