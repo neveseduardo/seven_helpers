@@ -1,4 +1,4 @@
-const methods = require('../src/index')
+const methods = require('../src/utils/Methods.utils')
 
 describe('Modules', () => { 
     it('IsEmpty string', () => { 

@@ -29,5 +29,8 @@
   },
   "pre-commit": [
     "test"
-  ]
+  ],
+  "dependencies": {
+    "moment": "^2.29.3"
+  }
 }
